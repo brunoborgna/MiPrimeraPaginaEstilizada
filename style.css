@@ -1,18 +1,23 @@
 /* Estilo del Encabezado */
 h1 {
-    color: #00008B;
+    color: #FFFFFF;
     text-align: center;
     font-family: Arial;
 }
 
+body {
+    background: linear-gradient(to right, #191970 100%); /* amarillo oro y azul */
+
+}
+
 h6 {
-    color: #191970;
+    color: #FFFFFF;
     text-align: center;
     font-family: Arial;
 }
 
 footer {
-    color: #191970;
+    color: #FFFFFF;
     text-align: center;
     font-family: Arial;
    font-size: 18px;
@@ -23,7 +28,7 @@ footer {
 p {
     font-size: 18px;
     line-height: 1.5em;
-    color: #1C1D1F;
+    color: #FFFFFF;
     font-family: Arial;
     text-align: center;
 }
@@ -33,11 +38,19 @@ p {
   justify-content: center;   /* <- centra horizontalmente */
   align-items: center;       /* <- centra verticalmente dentro del contenedor */
   gap: 80px;                 /* espacio entre imágenes (alternativa a margin) */
-border: 2px solid darkblue;
+border: 2px solid white;
   padding: 20px;
 }
 
 .contenedor-imagenes img {
   width: 150px;
   margin: 10px 0;            /* margen vertical */
+}
+
+a {
+    font-size: 18px;
+    line-height: 1.5em;
+    color: #FFFFFF;
+    font-family: Arial;
+    text-align: center;
 }
